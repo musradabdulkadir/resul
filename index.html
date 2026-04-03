@@ -9,67 +9,70 @@
     <title>Document</title>
 </head>
 
-<body class="text-[18px] mb-[40px]">
-    <div
-        class="block justify-center text-center bg-gradient-to-b from-[#7556FD] to-[#3128E9] text-[white] pb-[40px] rounded-b-[25px]">
-        <p class="text-[grey] pt-[40px] font-(family-name:hanken grotesk) font-[500] text-sky-50">Your Result</p>
+<body class="md:flex items-center md:h-screen md:justify-center text-[18px] mb-[40px] md:bg-[#FAFBFC] ">
+    <div class="flex flex-col md:flex-row justify-center md:w-[600px] md:mx-auto md:my-auto md:shadow-[44px_4px_15px_rgba(0,0,0,0.25)]">
         <div
-            class="mx-auto w-[100px] h-[100px] rounded-full justify-self-center p-[10px] bg-gradient-to-b from-[#4C22C6] to-[#4D3BEE] mt-[20px]">
-            <p class="mx-auto text-[40px] font-[900] mb-0 font-(family-name:lexend mega)">76</p>
-            <p class="mt-0 text-[13px] font-[hanken grotesk] font-[650] text-[lightgrey]">of 100</p>
-        </div>
-        <div class="text-center">
-            <p class="mt-[20px] font-[500] text-[white]">Great</p>
-            <p class="w-[210px] text-[13px] font-[500] text-[lightgrey] mx-auto">You scored higher than 60% of the
-                people who taken these tests.</p>
+            class="flex flex-col justify-center text-center bg-gradient-to-b from-[#7556FD] to-[#3128E9] text-[white] pb-[40px] md:p-[0px] rounded-b-[25px] md:rounded-[25px] ">
+            <p class="text-[grey] pt-[40px] md:pt-[0px] font-(family-name:hanken grotesk) font-[500] text-sky-50 ">Your Result</p>
+            <div
+                class="w-[100px] h-[100px] mx-auto rounded-full justify-self-center p-[10px] bg-gradient-to-b from-[#4C22C6] to-[#4D3BEE] mt-[20px]">
+                <p class="text-[40px] font-[900] mb-0 font-(family-name:lexend mega)">76</p>
+                <p class="mt-0 text-[13px] font-[hanken grotesk] font-[650] text-[lightgrey]">of 100</p>
+            </div>
+            <div class="text-center">
+                <p class="mt-[20px] font-[500] text-[white]">Great</p>
+                <p class="w-[300px] text-[13px] font-[500] text-[lightgrey] mx-auto p-[10px] px-[20px] ">You scored higher than 60% of the
+                    people who taken these tests.</p>
 
+            </div>
         </div>
-    </div>
-    <div class="">
-        <p class=" ml-[30px] mt-[20px] mb-[40px] font-[700] text-[#4B5570] font-[lexend_mega]">Summary</p>
+        <div class="right p-[20px] md:pb-[30px] bg-white  md:rounded-r-[25px]">
+            <p class=" ml-[20px] mt-[20px] mb-[20px] font-[700] text-[#4B5570] font-[lexend_mega]">Summary</p>
 
-        <div class="mx-auto flex justify-between bg-[#FFF6F6] mb-[15px] w-[80%] h-[45px] justify-self-center rounded-[8px] pr-[10px]">
-            <div class="flex items-center ">
-                <img class="p-[5px] mb-[0px]" src="images/icon-reaction.svg"
-                    alt="">
-                <p class="text-[#FF8686] font-[600]">Reaction</p>
+            <div
+                class="flex justify-between bg-[#FFF6F6] mb-[15px] w-[350px] h-[60px] md:m-[20px] md:w-[300px] justify-self-center rounded-[8px] pr-[10px]">
+                <div class="flex items-center ">
+                    <img class="p-[5px] mb-[0px]" src="images/icon-reaction.svg" alt="">
+                    <p class="text-[#FF8686] font-[600]">Reaction</p>
+                </div>
+                <div class="flex items-center ">
+                    <p class="text-[16px] font-[600] text-[grey]">80/100</p>
+                </div>
             </div>
-            <div class="flex items-center ">
-                <p class="text-[16px] font-[600] text-[grey]">80/100</p>
+            <div
+                class="flex justify-between bg-[#FFFBF3] mb-[15px] w-[350px] h-[60px] md:m-[20px] md:w-[300px]  justify-self-center rounded-[8px] pr-[10px]">
+                <div class="flex items-center ">
+                    <img class="p-[5px] mb-[0px]" src="images/icon-memory.svg" alt="">
+                    <p class="text-[#FFBF49] font-[600]">Memory</p>
+                </div>
+                <div class="flex items-center ">
+                    <p class="text-[16px] font-[600] text-[grey]">92/100</p>
+                </div>
             </div>
+            <div
+                class="flex justify-between bg-[#F2FCF9] mb-[15px] w-[350px] h-[60px] md:m-[20px] md:w-[300px]  justify-self-center rounded-[8px] pr-[10px]">
+                <div class="flex items-center ">
+                    <img class="p-[5px] mb-[0px]" src="images/icon-verbal.svg" alt="">
+                    <p class="text-[#3DCDAB] font-[600]">Reaction</p>
+                </div>
+                <div class="flex items-center ">
+                    <p class="text-[16px] font-[600] text-[grey]">61/100</p>
+                </div>
+            </div>
+            <div
+                class="flex justify-between bg-[#F2F4FD] mb-[15px] w-[350px] h-[60px] md:m-[20px] md:w-[300px]  justify-self-center rounded-[8px] pr-[10px]">
+                <div class="flex items-center ">
+                    <img class="p-[5px] mb-[0px]" src="images/icon-visual.svg" alt="">
+                    <p class="text-[#172BD4] font-[600]">Reaction</p>
+                </div>
+                <div class="flex items-center ">
+                    <p class="text-[16px] font-[600] text-[grey]">72/100</p>
+                </div>
+            </div>
+
+            <button
+                class="flex justify-self-center bg-[#303B5A] w-[350px] md:m-[20px] md:w-[300px] px-[128px] py-[10px] text-center text-[white] rounded-[20px] font-[600] mt-[27px] cursor-[pointer] hover:bg-[#242E47]">Continue</button>
         </div>
-        <div class="mx-auto flex justify-between bg-[#FFFBF3] mb-[15px] w-[80%] h-[45px] justify-self-center rounded-[8px] pr-[10px]">
-            <div class="flex items-center ">
-                <img class="p-[5px] mb-[0px]" src="images/icon-memory.svg"
-                    alt="">
-                <p class="text-[#FFBF49] font-[600]">Memory</p>
-            </div>
-            <div class="flex items-center ">
-                <p class="text-[16px] font-[600] text-[grey]">92/100</p>
-            </div>
-        </div>
-        <div class="mx-auto flex justify-between bg-[#F2FCF9] mb-[15px] w-[80%] h-[45px] justify-self-center rounded-[8px] pr-[10px]">
-            <div class="flex items-center ">
-                <img class="p-[5px] mb-[0px]" src="images/icon-verbal.svg"
-                    alt="">
-                <p class="text-[#3DCDAB] font-[600]">Verbal</p>
-            </div>
-            <div class="flex items-center ">
-                <p class="text-[16px] font-[600] text-[grey]">61/100</p>
-            </div>
-        </div>
-        <div class="mx-auto flex justify-between bg-[#F2F4FD] mb-[15px] w-[80%] h-[45px] justify-self-center rounded-[8px] pr-[10px]">
-            <div class="flex items-center ">
-                <img class="p-[5px] mb-[0px]" src="images/icon-visual.svg"
-                    alt="">
-                <p class="text-[#172BD4] font-[600]">Visual</p>
-            </div>
-            <div class="flex items-center ">
-                <p class="text-[16px] font-[600] text-[grey]">72/100</p>
-            </div>
-        </div>
-        
-        <button class="mx-auto flex justify-self-center bg-[#303B5A] px-[112px] py-[15px] text-[white] rounded-[30px] font-[600] mt-[35px] cursor-[pointer] hover:bg-[#242E47]">Continue</button>
     </div>
 </body>
 
